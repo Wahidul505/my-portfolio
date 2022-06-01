@@ -13,13 +13,13 @@ const About = () => {
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1000"
-                    className='text-7xl'>I am Wahidul Alam,</h1>
+                    className='text-5xl md:text-7xl'>I am Wahidul Alam,</h1>
                 <p
                     data-aos="fade-up"
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1200"
-                    className='text-5xl mt-2'>A Frontend Web Developer</p>
+                    className='text-3xl md:text-5xl mt-2'>A Frontend Web Developer</p>
             </div>
             <div className='lg:px-48 md:px-28 px-10'>
                 <Heading>About</Heading>
