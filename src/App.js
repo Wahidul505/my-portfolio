@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
@@ -17,6 +18,10 @@ function App() {
         <Route path='/works' element={<Works />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+      />
     </div>
   );
 }

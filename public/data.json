@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Craft Owl",
+        "details": [
+            "Fully own build project based on Art and Craft manufacturing to purchase products within quantities.",
+            "Database stores every important data and the client side functionalities work depending on that.",
+            "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
+        ],
+        "banner": "https://i.ibb.co/Phf5qc8/Screenshot-90.png",
+        "link": "https://craft-owl.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "Wild Wanderer",
+        "details": [
+            "Freelance Photographer website to provide categorized services.",
+            "Stores data of every order and admin can filter out the services data through date and status.",
+            "Built in React Js and used Firebase, Tailwind and MongoDb in the backend."
+        ],
+        "banner": "https://i.ibb.co/bmRK1PT/Screenshot-87.png",
+        "link": "https://wild-wanderer-b161c.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "Agronomy",
+        "details": [
+            "An agro warehouse management project to store and modify the data of products.",
+            "Have security based on authentication and authorization and have end to end responsiveness.",
+            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
+        ],
+        "banner": "https://i.ibb.co/W59qgww/agronomy-01-2-1.png",
+        "link": "https://agronomy-abb73.web.app/"
+    }
+]
