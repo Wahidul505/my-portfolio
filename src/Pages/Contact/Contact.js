@@ -5,7 +5,7 @@ import Heading from '../Heading';
 const Contact = () => {
     const handleCopyEmail = () => {
         navigator.clipboard.writeText('wahidul505@gmail.com');
-        toast.success('Copied to Clipboard', { id: 'copiedSuccess' });
+        toast.success('Copied to Clipboard', { id: 'copiedSuccess2' });
     }
     return (
         <div className='lg:px-48 md:px-28 px-10 pb-20 mt-28'>

@@ -3,9 +3,8 @@ import React from 'react';
 const Heading = ({ children }) => {
     return (
         <div
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-duration="700"
+            data-aos="flip-up"
+            data-aos-duration="1000"
             className='mb-8'>
             <h1
                 style={{ fontFamily: "'Fira Sans', sans-serif" }}
