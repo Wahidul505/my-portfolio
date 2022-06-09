@@ -1,6 +1,5 @@
 import React from 'react';
 import './WorkCard.css';
-import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 const WorkCard = ({ work }) => {
@@ -16,8 +15,8 @@ const WorkCard = ({ work }) => {
                         <h1 class="mb-5 text-3xl font-bold">{name}</h1>
                         <div className='md:flex flex-col gap-2 hidden w-full pl-8'>
                             {
-                                details.map((detail, index) => <p key={index} className="flex gap-2">
-                                    <VscDebugBreakpointLogUnverified />{detail}
+                                details.map((detail, index) => <p key={index} className="text-left">
+                                    <span className='font-bold'>•</span> {detail}
                                 </p>)
                             }
                         </div>

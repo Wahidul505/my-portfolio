@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Craft Owl",
         "details": [
-            "Fully own build project based on Art and Craft manufacturing to purchase products within quantities.",
+            "Art and Craft manufacturing to purchase products within quantities and implemented admins functionalities.",
             "Database stores every important data and the client side functionalities work depending on that.",
             "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
         ],
@@ -31,5 +31,38 @@
         ],
         "banner": "https://i.ibb.co/W59qgww/agronomy-01-2-1.png",
         "link": "https://agronomy-abb73.web.app/"
+    },
+    {
+        "id": 4,
+        "name": "Doctors Portal",
+        "details": [
+            "Website for book a dentist appointment with date and time.",
+            "Have security based on authentication and authorization and have end to end responsiveness.",
+            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
+        ],
+        "banner": "https://i.ibb.co/x1sTbC4/Screenshot-113.png",
+        "link": "https://doctors-portal-b9c73.web.app/"
+    },
+    {
+        "id": 5,
+        "name": "Genius Car Service",
+        "details": [
+            "Website for booking car services.",
+            "Have security based on authentication and authorization and have end to end responsiveness.",
+            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
+        ],
+        "banner": "https://i.ibb.co/nDf9GF2/Screenshot-111-1.png",
+        "link": "https://genius-car-service-88645.web.app/"
+    },
+    {
+        "id": 6,
+        "name": "Good Readers",
+        "details": [
+            "Review platform for readers build with react.",
+            "People can add review over a particular book with ratings it it.",
+            "Implemented react router for visiting page to page without reloading."
+        ],
+        "banner": "https://i.ibb.co/CPz5jH2/Screenshot-112.png",
+        "link": "https://good-readers.netlify.app/"
     }
 ]

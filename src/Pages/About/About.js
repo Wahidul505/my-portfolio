@@ -7,7 +7,7 @@ const About = () => {
         <div className='pb-20'>
             <div
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
-                className='h-screen flex flex-col items-center justify-center px-8'>
+                className='h-screen flex flex-col items-center justify-center px-4 md:px-8'>
                 <h1
                     data-aos="fade-up"
                     data-aos-anchor="#example-anchor"
@@ -23,7 +23,7 @@ const About = () => {
                     data-aos-delay="700"
                     className='text-3xl md:text-5xl mt-2'>A Frontend Web Developer</p>
             </div>
-            <div className='lg:px-48 md:px-28 px-10'>
+            <div className='lg:px-48 md:px-28 px-4'>
                 <Heading>About</Heading>
                 <div>
                     <p className='text-2xl mb-3'>
@@ -35,11 +35,6 @@ const About = () => {
                 </div>
                 <div>
                     <Skills />
-                </div>
-                <div>
-                    <p className='text-3xl font-semibold mb-6 mt-20 text-warning hover:translate-x-9 transition-transform'>
-                        <a target="_blank" href="https://drive.google.com/file/d/1SYkpNeUkcNxExrq8hHwP4huo2jDgiCXJ/view?usp=sharing" rel="noreferrer">My Resume</a>
-                    </p>
                 </div>
             </div>
         </div>

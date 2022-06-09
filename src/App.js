@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       style={{ fontFamily: "'Libre Franklin', sans-serif" }}
-      className='bg-neutral-900 text-white h-full'>
+      className='bg-base-100 text-white h-full'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
