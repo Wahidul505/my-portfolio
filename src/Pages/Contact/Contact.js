@@ -1,6 +1,6 @@
 import React from 'react';
 import toast from 'react-hot-toast';
-import Heading from '../Heading';
+import Heading from '../Shared/Heading';
 import Mailer from './Mailer';
 
 const Contact = () => {

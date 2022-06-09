@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Heading from '../Heading';
+import Heading from '../Shared/Heading';
 import WorkCard from './WorkCard';
 
 const Works = () => {

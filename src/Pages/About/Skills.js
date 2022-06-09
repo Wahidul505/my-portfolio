@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from '../Heading';
+import Heading from '../Shared/Heading';
 import Progress from './Progress';
 
 const Skills = () => {
