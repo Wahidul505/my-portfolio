@@ -38,7 +38,7 @@ const Mailer = () => {
                                 <label class="label">
                                     <span class="label-text">Message</span>
                                 </label>
-                                <textarea type="text" name='user_message' class="input input-bordered h-20" />
+                                <textarea type="text" name='user_message' class="textarea textarea-bordered h-20" />
                             </div>
                             <div class="form-control mt-6">
                                 <button type='submit' class="btn btn-accent">Send</button>

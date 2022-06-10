@@ -1,68 +1,121 @@
 [
     {
-        "id": 1,
         "name": "Craft Owl",
         "details": [
             "Art and Craft manufacturing to purchase products within quantities and implemented admins functionalities.",
             "Database stores every important data and the client side functionalities work depending on that.",
+            "Connected server with stripe and created a payment intent method to get connect with the client side and verify the given card.",
+            "Implemented jwt token for give authorization to a user and also created verification method to identify an admin and give access to hit in different api's.",
             "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
         ],
-        "banner": "https://i.ibb.co/Phf5qc8/Screenshot-90.png",
-        "link": "https://craft-owl.web.app/"
-    },
-    {
-        "id": 2,
-        "name": "Wild Wanderer",
-        "details": [
-            "Freelance Photographer website to provide categorized services.",
-            "Stores data of every order and admin can filter out the services data through date and status.",
-            "Built in React Js and used Firebase, Tailwind and MongoDb in the backend."
+        "banners": [
+            "https://i.ibb.co/brTBsWJ/craft-owl1.png",
+            "https://i.ibb.co/Q8Qj8dF/craft-owl2.png",
+            "https://i.ibb.co/L56r3kQ/craft-owl3.png"
         ],
-        "banner": "https://i.ibb.co/bmRK1PT/Screenshot-87.png",
-        "link": "https://wild-wanderer-b161c.web.app/"
+        "link": "https://craft-owl.web.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/craft-owl-client",
+            "https://github.com/Wahidul505/craft-owl-server"
+        ]
     },
     {
-        "id": 3,
         "name": "Agronomy",
         "details": [
             "An agro warehouse management project to store and modify the data of products.",
             "Have security based on authentication and authorization and have end to end responsiveness.",
+            "This website has a manage inventories page and a myItem page. In manage inventories page it shows all the stocked products from database and in the myItem page it shows all the product that a particular user added. A user can delete or update the quantity here. And all these updating and managing related routes are protected routes.",
+            "A dynamic header implemented to the website. It will tell the user which page is currently she/he is.",
             "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
         ],
-        "banner": "https://i.ibb.co/W59qgww/agronomy-01-2-1.png",
-        "link": "https://agronomy-abb73.web.app/"
+        "banners": [
+            "https://i.ibb.co/KV17kvT/agronomy1.png",
+            "https://i.ibb.co/W6pfbqg/agronomy2.png",
+            "https://i.ibb.co/8rPRd95/agronomy3.png"
+        ],
+        "link": "https://agronomy-abb73.web.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/agronomy",
+            "https://github.com/Wahidul505/agronomy-server"
+        ]
     },
     {
-        "id": 4,
+        "name": "Wild Wanderer",
+        "details": [
+            "Freelance Photographer website to provide categorized services.",
+            "Stores data of every order and admin can filter out the services data through date and status.",
+            "And the website is user friendly. A user can toggle between login and signUp route. And also in the navbar, the user can see which route is currently active.",
+            "While a user is logged in to the website a logout button will appear in the header and the user can logout anytime the user want.",
+            "Built in React Js and used Firebase, Tailwind and MongoDb in the backend."
+        ],
+        "banners": [
+            "https://i.ibb.co/MCJ4jTx/wild-wanderer1.png",
+            "https://i.ibb.co/q5JhqPb/wild-wanderer2.png",
+            "https://i.ibb.co/xXJQHbk/wild-wanderer3.png"
+        ],
+        "link": "https://wild-wanderer-b161c.web.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/wild-wanderer-client",
+            "https://github.com/Wahidul505/wild-wanderer-server"
+        ]
+    },
+    {
         "name": "Doctors Portal",
         "details": [
             "Website for book a dentist appointment with date and time.",
+            "Conditionally renders the time slot for booking based on previous bookings.",
+            "User can see their booking details and Admin can authorize user with admin role and can add or delete a doctor.",
             "Have security based on authentication and authorization and have end to end responsiveness.",
             "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
         ],
-        "banner": "https://i.ibb.co/x1sTbC4/Screenshot-113.png",
-        "link": "https://doctors-portal-b9c73.web.app/"
+        "banners": [
+            "https://i.ibb.co/ypZz10p/doctors-portal1.png",
+            "https://i.ibb.co/BT6Vzjm/doctors-portal2.png",
+            "https://i.ibb.co/yyN0fmR/doctors-portal3.png"
+        ],
+        "link": "https://doctors-portal-b9c73.web.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/doctors-portal-client",
+            "https://github.com/Wahidul505/doctors-portal-server"
+        ]
     },
     {
-        "id": 5,
         "name": "Genius Car Service",
         "details": [
             "Website for booking car services.",
+            "User can book service for different purposes and can see/delete their booked services.",
+            "Navbar conditionally renders the links of different routes.",
             "Have security based on authentication and authorization and have end to end responsiveness.",
             "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
         ],
-        "banner": "https://i.ibb.co/nDf9GF2/Screenshot-111-1.png",
-        "link": "https://genius-car-service-88645.web.app/"
+        "banners": [
+            "https://i.ibb.co/Bqw6pRL/car1.png",
+            "https://i.ibb.co/r37gB0Y/car2.png",
+            "https://i.ibb.co/dc3Z8s3/car3.png"
+        ],
+        "link": "https://genius-car-service-88645.web.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/genius-car-service",
+            "https://github.com/Wahidul505/genius-car-service-server"
+        ]
     },
     {
-        "id": 6,
         "name": "Good Readers",
         "details": [
             "Review platform for readers build with react.",
-            "People can add review over a particular book with ratings it it.",
+            "People can see the reviews over a particular book with ratings it it.",
+            "Added three reviews in the Home component and a button to see all reviews which will navigate to the Reviews component.",
+            "A component named DashBoard, which shows 4 different charts of financial records.",
             "Implemented react router for visiting page to page without reloading."
         ],
-        "banner": "https://i.ibb.co/CPz5jH2/Screenshot-112.png",
-        "link": "https://good-readers.netlify.app/"
+        "banners": [
+            "https://i.ibb.co/qMy6sMt/readers1.png",
+            "https://i.ibb.co/5GymhPm/readers2.png",
+            "https://i.ibb.co/CV2z7T5/readers3.png"
+        ],
+        "link": "https://good-readers.netlify.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/good-readers"
+        ]
     }
 ]

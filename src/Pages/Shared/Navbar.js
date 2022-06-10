@@ -10,8 +10,8 @@ const Navbar = () => {
             <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-300 rounded-box w-52 flex flex-col gap-2">
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/about'>About</NavLink></li>
-                <li><NavLink to='/works'>Works</NavLink></li>
                 <li><NavLink to='/contact'>Contact</NavLink></li>
+                <li><NavLink to='/blogs'>Blogs</NavLink></li>
             </ul>
         </div>
     );

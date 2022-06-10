@@ -1,9 +1,5 @@
-.link{
-    display: none;
-}
-.span-container:hover span{
-    display: none;
-}
-.span-container:hover .link{
-    display: block;
+.active{
+    color: rgb(0, 161, 161);
+    background-color: white;
+    font-weight: bold;
 }

@@ -27,10 +27,13 @@ const About = () => {
                 <Heading>About</Heading>
                 <div>
                     <p className='text-2xl mb-3'>
-                        Hi, I am a Junior Frontend Developer, working on React-based web applications and have made 10+ projects. Now, I am seeking for a job that will help me grow more.
+                        Hi, I am a Frontend Developer, working on React-based web applications and have made 30+ projects.
                     </p>
                     <p className='text-lg'>
-                        I started my Journey as a Frontend Developer recently. I am also a student of Computer and Communication Engineering. Although I am continuing my study, I can work almost half a day for my employee. I love to work in a freindly environment which will help me to learn more effectively. I am passionate about my career and being a Web developer is a blessing.
+                        I want to work in an innovative organization and want to dedicate myself to the field that I will work in. And I'm very passionate on my profession and have long planned a career in it.
+                    </p>
+                    <p className='text-lg mt-3'>
+                        I also have good knowledge of communication and leadership skills. I am also good at painting. One more thing that I feel glad to mention is that I am a cat-loving person and I have three adorable cats.
                     </p>
                 </div>
                 <div>
