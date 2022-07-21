@@ -2,8 +2,8 @@
     {
         "name": "Craft Owl",
         "details": [
-            "Art and Craft manufacturing to purchase products within quantities and implemented admins functionalities.",
-            "Database stores every important data and the client side functionalities work depending on that.",
+            "This Project is based on Art and Craft manufacturing to purchase products within quantities.",
+            "Client-side functionalities work depending on the visitor role: user and admin.",
             "Connected server with stripe and created a payment intent method to get connect with the client side and verify the given card.",
             "Implemented jwt token for give authorization to a user and also created verification method to identify an admin and give access to hit in different api's.",
             "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
@@ -17,6 +17,25 @@
         "codeLink": [
             "https://github.com/Wahidul505/craft-owl-client",
             "https://github.com/Wahidul505/craft-owl-server"
+        ]
+    },
+    {
+        "name": "Rent a Property",
+        "details": [
+            "A website to take and give rent to a property.",
+            "it has a search field based on 3 inputs to show the properties.",
+            "I used Redux to store and modify user credentials and used TypeScript, all over the project.",
+            "Implemented custom authentication using MongoDB and used tailwind, JWT, DaisyUI."
+        ],
+        "banners": [
+            "https://i.ibb.co/xsr6X59/rent-a-property1.png",
+            "https://i.ibb.co/MkpwKPh/rent-a-property2.png",
+            "https://i.ibb.co/FYH1WBJ/rent-a-property3.png"
+        ],
+        "link": "https://rent-a-property.netlify.app/",
+        "codeLink": [
+            "https://github.com/Wahidul505/rent-a-property",
+            "https://github.com/Wahidul505/rent-a-property-server"
         ]
     },
     {
@@ -37,26 +56,6 @@
         "codeLink": [
             "https://github.com/Wahidul505/agronomy",
             "https://github.com/Wahidul505/agronomy-server"
-        ]
-    },
-    {
-        "name": "Wild Wanderer",
-        "details": [
-            "Freelance Photographer website to provide categorized services.",
-            "Stores data of every order and admin can filter out the services data through date and status.",
-            "And the website is user friendly. A user can toggle between login and signUp route. And also in the navbar, the user can see which route is currently active.",
-            "While a user is logged in to the website a logout button will appear in the header and the user can logout anytime the user want.",
-            "Built in React Js and used Firebase, Tailwind and MongoDb in the backend."
-        ],
-        "banners": [
-            "https://i.ibb.co/MCJ4jTx/wild-wanderer1.png",
-            "https://i.ibb.co/q5JhqPb/wild-wanderer2.png",
-            "https://i.ibb.co/xXJQHbk/wild-wanderer3.png"
-        ],
-        "link": "https://wild-wanderer-b161c.web.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/wild-wanderer-client",
-            "https://github.com/Wahidul505/wild-wanderer-server"
         ]
     },
     {
