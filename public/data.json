@@ -1,126 +1,125 @@
 [
-    {
-        "_id": 1,
-        "name": "Craft Owl",
-        "details": [
-            "This Project is based on Art and Craft manufacturing to purchase products within quantities.",
-            "Client-side functionalities work depending on the visitor role: user and admin.",
-            "Connected server with stripe and created a payment intent method to get connect with the client side and verify the given card.",
-            "Implemented jwt token for give authorization to a user and also created verification method to identify an admin and give access to hit in different api's.",
-            "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
-        ],
-        "banners": [
-            "https://i.ibb.co/brTBsWJ/craft-owl1.png",
-            "https://i.ibb.co/Q8Qj8dF/craft-owl2.png",
-            "https://i.ibb.co/L56r3kQ/craft-owl3.png"
-        ],
-        "link": "https://craft-owl.web.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/craft-owl-client",
-            "https://github.com/Wahidul505/craft-owl-server"
-        ]
-    },
-    {
-        "_id": 2,
-        "name": "Rent a Property",
-        "details": [
-            "A website to take and give rent to a property.",
-            "it has a search field based on 3 inputs to show the properties.",
-            "I used Redux to store and modify user credentials and used TypeScript, all over the project.",
-            "Implemented custom authentication using MongoDB and used tailwind, JWT, DaisyUI."
-        ],
-        "banners": [
-            "https://i.ibb.co/xsr6X59/rent-a-property1.png",
-            "https://i.ibb.co/MkpwKPh/rent-a-property2.png",
-            "https://i.ibb.co/FYH1WBJ/rent-a-property3.png"
-        ],
-        "link": "https://rent-a-property.netlify.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/rent-a-property",
-            "https://github.com/Wahidul505/rent-a-property-server"
-        ]
-    },
-    {
-        "_id": 3,
-        "name": "Agronomy",
-        "details": [
-            "An agro warehouse management project to store and modify the data of products.",
-            "Have security based on authentication and authorization and have end to end responsiveness.",
-            "This website has a manage inventories page and a myItem page. In manage inventories page it shows all the stocked products from database and in the myItem page it shows all the product that a particular user added. A user can delete or update the quantity here. And all these updating and managing related routes are protected routes.",
-            "A dynamic header implemented to the website. It will tell the user which page is currently she/he is.",
-            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
-        ],
-        "banners": [
-            "https://i.ibb.co/KV17kvT/agronomy1.png",
-            "https://i.ibb.co/W6pfbqg/agronomy2.png",
-            "https://i.ibb.co/8rPRd95/agronomy3.png"
-        ],
-        "link": "https://agronomy-abb73.web.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/agronomy",
-            "https://github.com/Wahidul505/agronomy-server"
-        ]
-    },
-    {
-        "_id": 4,
-        "name": "Doctors Portal",
-        "details": [
-            "Website for book a dentist appointment with date and time.",
-            "Conditionally renders the time slot for booking based on previous bookings.",
-            "User can see their booking details and Admin can authorize user with admin role and can add or delete a doctor.",
-            "Have security based on authentication and authorization and have end to end responsiveness.",
-            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
-        ],
-        "banners": [
-            "https://i.ibb.co/ypZz10p/doctors-portal1.png",
-            "https://i.ibb.co/BT6Vzjm/doctors-portal2.png",
-            "https://i.ibb.co/yyN0fmR/doctors-portal3.png"
-        ],
-        "link": "https://doctors-portal-b9c73.web.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/doctors-portal-client",
-            "https://github.com/Wahidul505/doctors-portal-server"
-        ]
-    },
-    {
-        "_id": 5,
-        "name": "Genius Car Service",
-        "details": [
-            "Website for booking car services.",
-            "User can book service for different purposes and can see/delete their booked services.",
-            "Navbar conditionally renders the links of different routes.",
-            "Have security based on authentication and authorization and have end to end responsiveness.",
-            "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
-        ],
-        "banners": [
-            "https://i.ibb.co/Bqw6pRL/car1.png",
-            "https://i.ibb.co/r37gB0Y/car2.png",
-            "https://i.ibb.co/dc3Z8s3/car3.png"
-        ],
-        "link": "https://genius-car-service-88645.web.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/genius-car-service",
-            "https://github.com/Wahidul505/genius-car-service-server"
-        ]
-    },
-    {
-        "_id": 6,
-        "name": "Good Readers",
-        "details": [
-            "Review platform for readers build with react.",
-            "People can see the reviews over a particular book with ratings it it.",
-            "Added three reviews in the Home component and a button to see all reviews which will navigate to the Reviews component.",
-            "A component named DashBoard, which shows 4 different charts of financial records.",
-            "Implemented react router for visiting page to page without reloading."
-        ],
-        "banners": [
-            "https://i.ibb.co/qMy6sMt/readers1.png",
-            "https://i.ibb.co/5GymhPm/readers2.png",
-            "https://i.ibb.co/CV2z7T5/readers3.png"
-        ],
-        "link": "https://good-readers.netlify.app/",
-        "codeLink": [
-            "https://github.com/Wahidul505/good-readers"
-        ]
-    }
+  {
+    "_id": 1,
+    "name": "Glamour Reserve",
+    "details": [
+      "This platform enables users to easily book makeover services. It offers a user-friendly interface to choose service packages, preferred dates, and time slots, making it convenient for clients to schedule appointments.",
+
+      "The system incorporates two distinct administrative roles: admins and super admins. Admins have the authority to manage bookings, service categories, and users. Super admins possess additional privileges, including the ability to promote or demote users, enhancing user management capabilities.",
+
+      "To ensure robust security, the platform implements a JWT (JSON Web Token) system for user authentication and authorization. This technology safeguards data, provides access control, and assures that user interactions remain secure. The technology stack includes Next.js (App router), Redux, Tailwind for styling, PostgreSQL and Prisma for data management, and Express.js for backend functionality."
+    ],
+    "banners": [
+      "https://i.ibb.co/D8KfP7S/Screen-Shot-2023-10-27-at-11-20-26-AM.png",
+      "https://i.ibb.co/ZfdsHvy/Screen-Shot-2023-10-27-at-3-41-54-PM.png",
+      "https://i.ibb.co/ZVyMTRP/Screen-Shot-2023-10-27-at-3-56-58-PM.png"
+    ],
+    "link": "https://glamour-reserve.vercel.app/",
+    "codeLink": [
+      "https://github.com/Wahidul505/glamour-reserve-client",
+      "https://github.com/wahidul505/glamour-reserve-server"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Rent a Property",
+    "details": [
+      " 'Rent a Property' provides a user-friendly platform for listing properties, whether for sale or rent. Users can showcase various property types, from houses to apartments and villas, catering to diverse real estate needs.",
+
+      "The platform enhances the property search experience with robust filtering options. Users can narrow down their search based on location, price ranges, and property categories, ensuring they can quickly find the properties that match their criteria.",
+
+      "A secure login system ensures user trust and data security. Users can easily manage property listings, rental applications, and sales through an intuitive dashboard. The technology stack includes React.js, Redux, Tailwind for styling, MongoDB for data management, and Express.js for backend functionality."
+    ],
+    "banners": [
+      "https://i.ibb.co/xsr6X59/rent-a-property1.png",
+      "https://i.ibb.co/MkpwKPh/rent-a-property2.png",
+      "https://i.ibb.co/FYH1WBJ/rent-a-property3.png"
+    ],
+    "link": "https://rent-a-property.netlify.app/",
+    "codeLink": [
+      "https://github.com/Wahidul505/rent-a-property",
+      "https://github.com/Wahidul505/rent-a-property-server"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Book Store",
+    "details": [
+      "This Project is based on Art and Craft manufacturing to purchase products within quantities.",
+      "Client-side functionalities work depending on the visitor role: user and admin.",
+      "Connected server with stripe and created a payment intent method to get connect with the client side and verify the given card.",
+      "Implemented jwt token for give authorization to a user and also created verification method to identify an admin and give access to hit in different api's.",
+      "Used React Js, Firebase, React hook form, Tailwind & DaisyUI, JWT, MongoDb in backend."
+    ],
+    "banners": [
+      "https://i.ibb.co/NKLVgDN/Screen-Shot-2023-10-27-at-11-23-39-AM.png",
+      "https://i.ibb.co/MBYgpDZ/Screen-Shot-2023-10-27-at-3-51-39-PM.png",
+      "https://i.ibb.co/hg1yq4Z/Screen-Shot-2023-10-27-at-3-51-13-PM.png"
+    ],
+    "link": "https://my-new-book-store.netlify.app/",
+    "codeLink": [
+      "https://github.com/Wahidul505/book-store",
+      "https://github.com/Wahidul505/book-store-server"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Craft Owl",
+    "details": [
+      "Craft Owl is an e-commerce website designed for art enthusiasts. Users can conveniently purchase art-related products in bulk, including brushes, paints, colors, canvases, and more, making it a one-stop shop for all their artistic needs.",
+
+      "Customers can complete their purchases with ease by paying through ATM cards, ensuring a secure and hassle-free transaction process. This adds an extra layer of convenience and trust to the shopping experience.",
+
+      "The website is built using React.js, React Router, Stripe, Node.js, and MongoDB, providing robust functionalities for the admin. Administrators have the ability to monitor and manage product orders efficiently, streamlining the order handling process."
+    ],
+    "banners": [
+      "https://i.ibb.co/brTBsWJ/craft-owl1.png",
+      "https://i.ibb.co/Q8Qj8dF/craft-owl2.png",
+      "https://i.ibb.co/L56r3kQ/craft-owl3.png"
+    ],
+    "link": "https://craft-owl.web.app/",
+    "codeLink": [
+      "https://github.com/Wahidul505/craft-owl-client",
+      "https://github.com/Wahidul505/craft-owl-server"
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Agronomy",
+    "details": [
+      "An agro warehouse management project to store and modify the data of products.",
+      "Have security based on authentication and authorization and have end to end responsiveness.",
+      "This website has a manage inventories page and a myItem page. In manage inventories page it shows all the stocked products from database and in the myItem page it shows all the product that a particular user added. A user can delete or update the quantity here. And all these updating and managing related routes are protected routes.",
+      "A dynamic header implemented to the website. It will tell the user which page is currently she/he is.",
+      "Implemented CRUD operation and used React Js, Firebase, Tailwind, JWT."
+    ],
+    "banners": [
+      "https://i.ibb.co/KV17kvT/agronomy1.png",
+      "https://i.ibb.co/W6pfbqg/agronomy2.png",
+      "https://i.ibb.co/8rPRd95/agronomy3.png"
+    ],
+    "link": "https://agronomy-abb73.web.app/",
+    "codeLink": [
+      "https://github.com/Wahidul505/agronomy",
+      "https://github.com/Wahidul505/agronomy-server"
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "Good Readers",
+    "details": [
+      "Review platform for readers build with react.",
+      "People can see the reviews over a particular book with ratings it it.",
+      "Added three reviews in the Home component and a button to see all reviews which will navigate to the Reviews component.",
+      "A component named DashBoard, which shows 4 different charts of financial records.",
+      "Implemented react router for visiting page to page without reloading."
+    ],
+    "banners": [
+      "https://i.ibb.co/qMy6sMt/readers1.png",
+      "https://i.ibb.co/5GymhPm/readers2.png",
+      "https://i.ibb.co/CV2z7T5/readers3.png"
+    ],
+    "link": "https://good-readers.netlify.app/",
+    "codeLink": ["https://github.com/Wahidul505/good-readers"]
+  }
 ]
