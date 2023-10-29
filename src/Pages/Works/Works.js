@@ -4,7 +4,6 @@ import Heading from "../Shared/Heading";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-  // const [works, setWorks] = useState([]);
   const { works, setWorks } = useContext(WorkContext);
   useEffect(() => {
     fetch("data.json")
@@ -12,7 +11,7 @@ const Works = () => {
       .then((data) => setWorks(data));
   }, [works, setWorks]);
   return (
-    <div className="py-28 px-4 md:px-20">
+    <div className="py-28 px-4 md:px-20 z-30 shadow-black shadow-xl">
       <Heading>My Projects</Heading>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {works.map((work) => (
