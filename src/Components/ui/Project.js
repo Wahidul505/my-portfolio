@@ -27,7 +27,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <div className="h-full flex flex-col justify-around">
+    <div className="h-full flex flex-col justify-center  space-y-2 md:space-y-4 lg:space-y-5">
       <Heading label="My Projects" text="text-[#457B9D]" />
       {/* <div className="flex items-center justify-center h-full md:block "> */}
       <div className="flex flex-col md:grid md:grid-cols-2 items-center">

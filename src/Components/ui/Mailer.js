@@ -21,7 +21,7 @@ const Mailer = () => {
     }
   };
   return (
-    <div className="h-full flex flex-col justify-around">
+    <div className="h-full flex flex-col justify-center space-y-2 md:space-y-4 lg:space-y-5 ">
       <Heading label="Stay in Touch" text="text-[#1D3557]" />
       <h1 className="text-center md:text-xl text-[#457B9D] font-semibold w-full md:w-5/6 lg:w-2/3 mx-auto">
         Whether you have questions about giving job opportunities, ideas to

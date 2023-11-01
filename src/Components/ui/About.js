@@ -25,7 +25,7 @@ const skills = [
 
 const About = () => {
   return (
-    <div className="h-full flex flex-col justify-around">
+    <div className="h-full flex flex-col justify-center space-y-2 md:space-y-4 lg:space-y-5">
       <Heading label="About Me" text="text-[#1D3557]" />
       <div className="text-center text-base lg:text-xl text-[#457B9D] md:w-2/3 mx-auto">
         I'm Wahidul Alam, a passionate 𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 with practical
