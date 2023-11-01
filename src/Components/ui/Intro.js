@@ -1,9 +1,10 @@
 import React from "react";
 import Social from "../view/Social";
+import { AiOutlineDown } from "react-icons/ai";
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-32 md:py-0 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-32 md:py-0 relative">
       <div className="flex flex-col justify-center">
         <h1 className="text-5xl lg:text-7xl text-[#457b9d]">
           Full Stack Developer.
@@ -16,6 +17,9 @@ const Intro = () => {
       </div>
       <div className="">
         <Social />
+      </div>
+      <div className="absolute right-0 left-0 bottom-4 text-center w-full flex justify-center text-3xl">
+        <AiOutlineDown />
       </div>
     </div>
   );
