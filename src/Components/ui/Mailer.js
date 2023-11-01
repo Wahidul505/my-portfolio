@@ -21,28 +21,31 @@ const Mailer = () => {
     }
   };
   return (
-    <div>
+    <div className="h-full flex flex-col justify-around">
       <Heading label="Stay in Touch" text="text-[#1D3557]" />
+      <h1 className="text-center md:text-xl text-[#457B9D] font-semibold w-full md:w-5/6 lg:w-2/3 mx-auto">
+        Whether you have questions about giving job opportunities, ideas to
+        propose, or want to reach out and say hello, please don't hesitate to do
+        so.
+      </h1>
       <div className="">
         <form
           onSubmit={handleSendMail}
-          className="w-full md:w-5/6 lg:w-2/3 mx-auto mt-8 "
+          className="w-full md:w-5/6 lg:w-2/3 mx-auto"
         >
-          <h1 className="text-center md:text-xl text-[#457B9D] mb-12 font-semibold">
-            Whether you have questions about giving job opportunities, ideas to
-            propose, or want to reach out and say hello, please don't hesitate
-            to do so.
-          </h1>
           <div className="md:grid md:grid-cols-2">
             <div className="md:mx-6">
-              <label htmlFor="user_name" className="block mb-2 text-[#457B9D] ">
+              <label
+                htmlFor="user_name"
+                className="block mb-2 text-[#457B9D] text-sm md:text-base"
+              >
                 Your Name
               </label>
               <input
                 type="text"
                 name="user_name"
                 id="user_name"
-                className="border-b border-[#457B9D] md:text-xl py-2 bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full"
+                className="border-b border-[#457B9D] text-sm md:text-xl py-2 bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full"
                 placeholder="Enter your name"
                 required
               />
@@ -50,7 +53,7 @@ const Mailer = () => {
             <div className="md:mx-6 mt-6 md:mt-0">
               <label
                 htmlFor="user_email"
-                className="block mb-2 text-[#457B9D] "
+                className="block mb-2 text-[#457B9D] text-sm md:text-base"
               >
                 Email Address
               </label>
@@ -58,7 +61,7 @@ const Mailer = () => {
                 type="email"
                 name="user_email"
                 id="user_email"
-                className="border-b border-[#457B9D] md:text-xl py-2 bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full "
+                className="border-b border-[#457B9D] text-sm md:text-xl py-2 bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full "
                 placeholder="Enter your email address"
                 required
               />
@@ -67,7 +70,7 @@ const Mailer = () => {
           <div className="md:mx-6 mt-6 md:mt-10">
             <label
               htmlFor="user_message"
-              className="block mb-2 text-[#457B9D] "
+              className="block mb-2 text-[#457B9D] text-sm md:text-base"
             >
               Your Message
             </label>
@@ -75,7 +78,7 @@ const Mailer = () => {
               type="text"
               name="user_message"
               id="user_message"
-              className="border-b border-[#457B9D] md:text-xl  bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full "
+              className="border-b border-[#457B9D] text-sm md:text-xl  bg-[#f1faee] focus:outline-none text-[#457B9D] block w-full "
               placeholder="Hi there, it's my view that we should bring in a Web Developer to enhance our products at Company X. What's your availability like for a discussion on this matter?"
               required
             />

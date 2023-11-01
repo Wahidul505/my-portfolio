@@ -5,7 +5,7 @@ import { BsFileEarmarkText } from "react-icons/bs";
 
 const Social = () => {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-3 gap-4 text-5xl md:px-3 lg:text-7xl text-white">
+    <div className="grid grid-cols-3 md:grid-cols-3 gap-4 text-3xl md:px-3 lg:text-7xl text-white">
       <a
         href="https://drive.google.com/file/d/1KysTlgcYmZFAh_1YggjO25RZYKTZFiFP/view"
         rel="noreferrer"
