@@ -5,7 +5,7 @@ import { GoLinkExternal } from "react-icons/go";
 const projects = [
   {
     title: "Glamour Reserve",
-    image: "https://i.ibb.co/9cMQTWz/Screen-Shot-2023-11-01-at-12-46-21-AM.png",
+    image: "https://i.ibb.co/QPrZ11T/Screen-Shot-2023-11-03-at-8-37-49-PM.png",
     url: "https://glamour-reserve.vercel.app/",
   },
   {
